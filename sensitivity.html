@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Настройки чувствительности Free Fire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Настройки чувствительности Free Fire</h1>
+        <nav>
+            <a href="index.html">Главная</a> |
+            <a href="sensitivity.html">Чувствительность</a> |
+            <a href="guides.html">Гайды</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Настройки прицела</h2>
+
+        <div class="slider-group">
+            <label>General: <input type="range" id="general" min="1" max="100" value="50"></label>
+            <span id="general-value">50</span>
+        </div>
+
+        <div class="slider-group">
+            <label>Red Dot: <input type="range" id="redDot" min="1" max="100" value="50"></label>
+            <span id="redDot-value">50</span>
+        </div>
+
+        <div class="slider-group">
+            <label>Scope: <input type="range" id="scope" min="1" max="100" value="50"></label>
+            <span id="scope-value">50</span>
+        </div>
+
+        <div class="slider-group">
+            <label>Sniper: <input type="range" id="sniper" min="1" max="100" value="50"></label>
+            <span id="sniper-value">50</span>
+        </div>
+
+        <button onclick="saveSettings()">Сохранить настройки</button>
+    </main>
+
+    <footer>
+        <p>© 2026 Free Fire Guide</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

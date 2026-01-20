@@ -1,0 +1,81 @@
+/* Общие стили для всего сайта */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: #fff;
+}
+
+/* Шапка сайта */
+header {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #ffcc00;
+}
+
+/* Навигация */
+nav a {
+    color: #ffcc00;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Основной контент */
+main {
+    padding: 20px;
+}
+
+/* Группы ползунков */
+.slider-group {
+    margin-bottom: 15px;
+}
+
+/* Ползунки */
+input[type="range"] {
+    width: 200px;
+}
+
+/* Кнопки */
+button {
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    border: none;
+    color: #111;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ffaa00;
+}
+
+/* Подвал сайта */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #222;
+}
+
+/* Баннер на главной странице */
+.banner {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+/* Списки */
+ul {
+    line-height: 1.6;
+}
